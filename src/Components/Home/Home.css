@@ -1,0 +1,20 @@
+.banner-container {
+  background-image: url("https://www.aamc.org/sites/default/files/styles/scale_and_crop_1200_x_666/public/Public%20Opinion%20Research%201200x666.jpg?itok=Z9g0DOPe");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  background: linear-gradient(200deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  min-height: 100%;
+  color: whitesmoke;
+  min-height: 60vh;
+}
+
+.banner-card {
+  background-color: rgba(255, 255, 255, 0.1);
+}

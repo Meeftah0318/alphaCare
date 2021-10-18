@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Kyo Kusanagi",
+    "age": 24,
+    "power": "Hot Fire",
+    "country": "Japan",
+    "price": 20000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk6O0rfeeTgPfEOINsXRzHRP82t4vSPWaJHI2-2HOqfSsYMIUaZJWiBWl0hTWtA7R1zZY&usqp=CAU"
+  },
+  {
+    "id": 2,
+    "name": "Iori Yagami",
+    "age": 26,
+    "power": "Cold Fire",
+    "country": "Japan",
+    "price": 20000,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/608af5e6-5bbc-42b1-826e-d6a5e5bd74c9/dbgmmum-2102af45-997a-4032-a3c9-7bb96b9e16d4.jpg/v1/fill/w_1024,h_1045,q_75,strp/iori_yagami___moon_by_emmakof_dbgmmum-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA0NSIsInBhdGgiOiJcL2ZcLzYwOGFmNWU2LTViYmMtNDJiMS04MjZlLWQ2YTVlNWJkNzRjOVwvZGJnbW11bS0yMTAyYWY0NS05OTdhLTQwMzItYTNjOS03YmI5NmI5ZTE2ZDQuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.PFNnhjZ_mL5dhMkgyizdSprCLjzbfXtA3TbqbO0H14Q"
+  },
+  {
+    "id": 3,
+    "name": "Terry Bogard",
+    "age": 21,
+    "power": "Muscle",
+    "country": "England",
+    "price": 15000,
+    "image": "https://www.fightersgeneration.com/news2021/char/terry-bogard-kof2002um-art-by-hiroaki.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ryo Shakazaki",
+    "age": 23,
+    "power": "Kung-Fu",
+    "country": "Japan",
+    "price": 17000,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b196fc2b-a300-4657-8874-405412e7d147/ddinmv1-2d2bb8cf-b0a2-4e0c-8031-d03f0f77c4b9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IxOTZmYzJiLWEzMDAtNDY1Ny04ODc0LTQwNTQxMmU3ZDE0N1wvZGRpbm12MS0yZDJiYjhjZi1iMGEyLTRlMGMtODAzMS1kMDNmMGY3N2M0YjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NZ4x7hRVZvz7lA4jmuSLqKL-RFnR97ewPUBFtJWqcW4"
+  },
+  {
+    "id": 5,
+    "name": "Ralf Jones",
+    "age": 28,
+    "power": "Muscle",
+    "country": "USA",
+    "price": 18000,
+    "image": "https://www.fightersgeneration.com/characters3/ralf45.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Robert Garcia",
+    "age": 26,
+    "power": "Leg Muscle",
+    "country": "Spain",
+    "price": 17000,
+    "image": "https://www.fightersgeneration.com/np8/char/kof13/win-portraits/RobertWinXIII.png"
+  },
+  {
+    "id": 7,
+    "name": "Sei Kensou",
+    "age": 18,
+    "power": "Kung-Fu",
+    "country": "South Korea",
+    "price": 10000,
+    "image": "https://dreamcancel.com/wiki/images/0/07/Charaimg_kensou.png"
+  },
+  {
+    "id": 8,
+    "name": "Chin Gentsai",
+    "age": 58,
+    "power": "Fishing Rod",
+    "country": "Thailand",
+    "price": 14000,
+    "image": "https://dreamcancel.com/wiki/images/0/05/Charaimg_chin.png"
+  },
+  {
+    "id": 9,
+    "name": "Maxima",
+    "age": 35,
+    "power": "Hype",
+    "country": "Unknown",
+    "price": 17000,
+    "image": "https://dreamcancel.com/wiki/images/8/89/Charaimg_maxima.png"
+  },
+  {
+    "id": 10,
+    "name": "Kim Kaphwan",
+    "age": 26,
+    "power": "Speed",
+    "country": "Philipines",
+    "price": 19000,
+    "image": "https://dreamcancel.com/wiki/images/3/36/Charaimg_kim.png"
+  },
+  {
+    "id": 11,
+    "name": "Bandeiras Hattori",
+    "age": 21,
+    "power": "Sword",
+    "country": "Sweden",
+    "price": 14000,
+    "image": "https://dreamcancel.com/wiki/images/6/6e/Charaimg_bandeiras.png"
+  },
+  {
+    "id": 12,
+    "name": "K'",
+    "age": 24,
+    "power": "Agility",
+    "country": "Unknown",
+    "price": 18000,
+    "image": "https://dreamcancel.com/wiki/images/3/38/Charaimg_k.png"
+  }
+]
