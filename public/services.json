@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Dental Care",
+    "details": "We have the best Certified dentists, who can diagnose and treat oral health conditions of your teeth, gums, tongue, and mouth. Come for a full dental checkup and smile with confidence.",
+    "image": "https://media.istockphoto.com/photos/tooth-with-dental-mirror-picture-id1136317796?k=20&m=1136317796&s=612x612&w=0&h=RyJPwVuuGoR-7JF0C99F43MxHMPf2OnPHoZpNMafgWg="
+  },
+  {
+    "id": 2,
+    "name": "Cardio Care",
+    "details": "Our Cardiologists are doctors who specialize in diagnosing and treating diseases or conditions of the heart and blood vessels—the cardiovascular system.",
+    "image": "https://www.nm.org//-/media/northwestern/healthbeat/images/health%20library/nm-ten-signs-cardiologist_preview.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Neoro Care",
+    "details": "Illnesses, disorders, and injuries that involve the nervous system often require a neurologist’s management and treatment. We got you covered with the best known doctors availale always.",
+    "image": "https://cdn.mos.cms.futurecdn.net/SAYvWXhiFb5u4ErPvx3HZT-320-80.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dermatology",
+    "details": "A dermatologist is a type of doctor that diagnoses and treats conditions that affect your hair, skin, and nails. They also treat conditions that affect mucous membranes, or the delicate tissue that lines your nose, mouth, and eyelids.",
+    "image": "https://www.shineholistic.co.uk/files/2020/01/SH-Health-Cosmetic-Dermatology.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Gynecology",
+    "details": "We deal with a wide range of issues, including obstetrics, or pregnancy and childbirth, menstruation and fertility issues, sexually transmitted infections (STIs), hormone disorders, and others.",
+    "image": "https://www.usnews.com/dims4/USNEWS/66e9511/2147483647/crop/2000x1313%2B0%2B0/resize/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F1e%2F8f%2F98320300423fbbdd39a82d2dd365%2F180326-obgyn-stock.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Nutrition",
+    "details": "Our Nutritionists are the heart of a patient's health by using their knowledge of the science of food to help individuals and groups make the right choices about what they eat.",
+    "image": "https://www.news-medical.net/image.axd?picture=2021%2F4%2Fshutterstock_1525473638.jpg"
+  }
+]

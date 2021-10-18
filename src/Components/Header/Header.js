@@ -13,7 +13,7 @@ const Header = () => {
               <span className="me-2">
                 <i class="fas fa-clinic-medical"></i>
               </span>
-              Alpha Care
+              AlphaCare
             </Link>
           </div>
           <div>
