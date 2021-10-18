@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="my-5">
       <div className="w-75 mx-auto row">
-        <div className="col-md-5 bg-light py-3">
+        <div className="col-md-7 bg-light p-5">
           <h2 className="text-success">Leave a message</h2>
           <form>
             <div className="mb-2">
@@ -71,9 +71,9 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="col-md-7 py-3">
-          <h2 className="text-success text-center pb-3">Our Addresses</h2>
-          <div className="ps-5">
+        <div className="col-md-5 ">
+          <div className=" p-5">
+            <h2 className="text-success pb-3">Our Addresses</h2>
             <div>
               <h4 className="text-secondary">Gothenburg Address</h4>
               <p>
@@ -89,7 +89,7 @@ const Contact = () => {
             <div>
               <h4 className="text-secondary">Vantaa Address</h4>
               <p>
-                The cheese cup street,
+                The cheese-cup street,
                 <br />
                 2b, 41 276, Vantaa <br />
                 Krakosia
