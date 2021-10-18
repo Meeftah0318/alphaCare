@@ -1,5 +1,7 @@
 import React from "react";
+import Team from "../../Team/Team";
 import Services from "../Services/Services";
+import Testimonial from "../Testitomial/Testimonial";
 import "./Home.css";
 
 const Home = () => {
@@ -30,7 +32,7 @@ const Home = () => {
                   <i class="far fa-clock"></i>
                 </div>
                 <div>
-                  <h4>24hrs Available doctors</h4>
+                  <h5>24hrs Available Doctors</h5>
                   <p>Dont worry about the time, we are always available</p>
                 </div>
               </div>
@@ -39,7 +41,7 @@ const Home = () => {
                   <i class="fas fa-mobile-alt"></i>
                 </div>
                 <div>
-                  <h4>Always available customer services</h4>
+                  <h5>24/7 Available Customer Service</h5>
                   <p>
                     We are always there for you, call us whenever you need help.
                   </p>
@@ -53,6 +55,8 @@ const Home = () => {
 
       {/* services  */}
       <Services></Services>
+      <Team></Team>
+      <Testimonial></Testimonial>
     </div>
   );
 };

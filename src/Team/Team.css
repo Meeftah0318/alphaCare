@@ -1,0 +1,8 @@
+.team-container {
+  background-color: rgba(211, 211, 211, 0.4);
+}
+
+.team-text hr {
+  width: 100px;
+  height: 5px;
+}

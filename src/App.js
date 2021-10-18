@@ -7,6 +7,7 @@ import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
 import About from "./Components/About/About";
 import NotFound from "./Components/NotFound/NotFound";
+import Footer from "./Components/Testitomial/Footer/Footer";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
