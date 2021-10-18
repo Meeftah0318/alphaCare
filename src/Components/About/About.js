@@ -28,7 +28,7 @@ const About = () => {
       {/* about main */}
       <div className="bg-light py-5">
         <div className="w-75 mx-auto row">
-          <div className="col-md-6">
+          <div className="col-md-6 pe-4">
             <h2 className="text-success mb-4">Who We Are?</h2>
             <p className="fs-6">
               We are a group of doctors from different countries of europe witth
@@ -50,7 +50,7 @@ const About = () => {
             </p>
           </div>
           <div className="col-md-6 bg-dark rounded">
-            <h4 className="text-success text-center  my-4">
+            <h4 className="text-success text-center my-4">
               Want to know more? <br />
               Subscribe to our Newsletter
             </h4>
