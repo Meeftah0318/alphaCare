@@ -24,8 +24,21 @@ const About = () => {
             </button>
           </div>
         </div>
-        {/* about main */}
-        <div></div>
+      </div>
+      {/* about main */}
+      <div className="bg-light py-5">
+        <div className="w-75 mx-auto row">
+          <div className="col-md-6">
+            <h2 className="text-success mb-4">Who We Are?</h2>
+            <p className="fs-6">
+              We are the best in class care center with a mission to bring
+              academic medical center that integrates clinical and hospital care
+              with research and education. We are growing slowly and maintaining
+              the quality that we drive for.
+            </p>
+          </div>
+          <div className="col-md-6"></div>
+        </div>
       </div>
     </div>
   );
