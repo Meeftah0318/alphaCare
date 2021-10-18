@@ -8,6 +8,7 @@ const Testimonial = () => {
           <h1>Patients Testimonials</h1>
         </div>
         <br />
+
         <div
           id="carouselExampleControls"
           className="carousel slide"
@@ -57,7 +58,8 @@ const Testimonial = () => {
                   about the exceptional care I received in the Jamaica Hospital
                   Cardiac Care Unit and the MICU. All of the doctors and nurses
                   were friendly, pleasant, kind, thorough, conscientious and
-                  professional. I am happy to have been in their care. &rdquo;
+                  professional. I am happy to have been in their care. In the
+                  SICU, there was care, compassion, and respect. &rdquo;
                 </em>
               </p>
               <h4 className="text-end">

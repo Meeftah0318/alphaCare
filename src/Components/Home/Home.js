@@ -52,10 +52,11 @@ const Home = () => {
         </div>
       </div>
       {/* banner ends  */}
-
       {/* services  */}
       <Services></Services>
+      {/* teams */}
       <Team></Team>
+      {/* testimonials */}
       <Testimonial></Testimonial>
     </div>
   );

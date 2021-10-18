@@ -19,7 +19,7 @@ const Header = () => {
           <div>
             <div>
               <button
-                className="navbar-toggler"
+                className="navbar-toggler ms-5"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown"
@@ -32,7 +32,9 @@ const Header = () => {
               <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 {/* link to routes */}
                 <ul className="navbar-nav link-item">
-                  <Link to="home">Home</Link>
+                  <Link className="ms-5" to="home">
+                    Home
+                  </Link>
                   <Link className="ms-5" to="services">
                     Services
                   </Link>

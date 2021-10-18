@@ -3,7 +3,7 @@ import "./Team.css";
 
 const Team = () => {
   return (
-    <div className="team-container py-5">
+    <div className="team-container pt-5">
       <div className="w-75 mx-auto row">
         <div className="col-md-7 my-auto team-text pe-4">
           <h2 className="text-success">Dr. Sebastian Bergman</h2>
@@ -19,8 +19,8 @@ const Team = () => {
             job.&rdquo;
           </blockquote>
         </div>
-        <div className="col-md-5">
-          <img height="500px" src="./images/doctor team.png" alt="" />
+        <div className="col-md-5 d-flex justify-content-end">
+          <img height="450px" src="./images/doctor team.png" alt="" />
         </div>
       </div>
     </div>
