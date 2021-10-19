@@ -48,7 +48,12 @@ const Header = () => {
               </div>
             </div>
             <div className="d-flex justify-content-end mt-2">
-              <button className="btn btn-outline-success  ">Login</button>
+              <button className="btn btn-outline-success">
+                {" "}
+                <Link className="text-decoration-none text-dark " to="login">
+                  Login
+                </Link>{" "}
+              </button>
             </div>
           </div>
         </div>

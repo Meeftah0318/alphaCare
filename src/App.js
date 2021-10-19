@@ -8,6 +8,7 @@ import Contact from "./Components/Contact/Contact";
 import About from "./Components/About/About";
 import NotFound from "./Components/NotFound/NotFound";
 import Footer from "./Components/Footer/Footer";
+import Login from "./Components/Login/Login";
 
 function App() {
   return (
@@ -30,7 +31,10 @@ function App() {
           <Route path="/contact">
             <Contact></Contact>
           </Route>
-          <Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/*">
             <NotFound></NotFound>
           </Route>
         </Switch>
