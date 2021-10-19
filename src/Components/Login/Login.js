@@ -1,11 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
     <div>
       <div className="my-5">
         <div className="w-75 mx-auto row">
-          {/* Register form */}
           <div className="col-md-6 ">
             <div className=" p-5">
               <h2 className="text-success pb-3">Our Addresses</h2>
@@ -14,10 +14,10 @@ const Login = () => {
 
           {/* register form */}
           <div className="col-md-6 bg-light p-5">
-            <h2 className="text-success">Leave a message</h2>
+            <h2 className="text-success">Login</h2>
             <form>
               <div className="mb-2">
-                <label for="formGroupExampleInput" className="form-label">
+                <label htmlFor="formGroupExampleInput" className="form-label">
                   Your Name
                 </label>
                 <input
@@ -28,41 +28,27 @@ const Login = () => {
                 />
               </div>
               <div className="mb-2">
-                <label for="formGroupExampleInput2" className="form-label">
-                  Subject
+                <label htmlFor="formGroupExampleInput2" className="form-label">
+                  Email
                 </label>
                 <input
-                  type="text"
+                  type="email"
                   className="form-control"
                   id="formGroupExampleInput2"
-                  placeholder="Subject"
+                  placeholder="Your Email"
                 />
               </div>
               <div className="mb-2">
-                <label for="exampleInputEmail1" className="form-label">
-                  Contact number.
+                <label htmlFor="exampleInputEmail1" className="form-label">
+                  Password
                 </label>
                 <input
-                  type="text"
+                  type="password"
                   className="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Contact number"
+                  placeholder="Type your password"
                 />
-                <div id="emailHelp" className="form-text">
-                  We'll never share your contact details.
-                </div>
-              </div>
-              <div className="mb-3">
-                <label for="exampleFormControlTextarea1" className="form-label">
-                  Your message here.
-                </label>
-                <textarea
-                  className="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                  placeholder="Write something"
-                ></textarea>
               </div>
 
               <div className="mb-3 form-check">
@@ -71,13 +57,25 @@ const Login = () => {
                   className="form-check-input"
                   id="exampleCheck1"
                 />
-                <label className="form-check-label" for="exampleCheck1">
-                  I would like to request a return call.
-                </label>
               </div>
-              <button type="submit" className="btn px-4 btn-outline-success">
+              <button type="submit" className="btn px-4 btn-success me-4">
                 Submit
               </button>
+              <button type="submit" className="btn px-4 btn-primary">
+                Google Sign In
+              </button>
+              <br />
+              <label className="form-check-label" htmlFor="exampleCheck1">
+                New here? <br />
+                <button type="submit" className="btn px-4 btn-outline-success">
+                  <Link
+                    className="text-decoration-none text-dark"
+                    to="/register"
+                  >
+                    Please register
+                  </Link>
+                </button>
+              </label>
             </form>
           </div>
         </div>

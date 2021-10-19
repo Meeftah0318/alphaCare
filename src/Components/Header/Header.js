@@ -54,6 +54,13 @@ const Header = () => {
                   Login
                 </Link>{" "}
               </button>
+
+              <button className="btn btn-outline-danger">
+                {" "}
+                <Link className="text-decoration-none text-dark " to="login">
+                  Logout
+                </Link>{" "}
+              </button>
             </div>
           </div>
         </div>

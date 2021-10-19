@@ -8,7 +8,7 @@ const Contact = () => {
           <h2 className="text-success">Leave a message</h2>
           <form>
             <div className="mb-2">
-              <label for="formGroupExampleInput" className="form-label">
+              <label htmlhtmlFor="formGroupExampleInput" className="form-label">
                 Your Name
               </label>
               <input
@@ -19,7 +19,10 @@ const Contact = () => {
               />
             </div>
             <div className="mb-2">
-              <label for="formGroupExampleInput2" className="form-label">
+              <label
+                htmlhtmlFor="formGroupExampleInput2"
+                className="form-label"
+              >
                 Subject
               </label>
               <input
@@ -30,7 +33,7 @@ const Contact = () => {
               />
             </div>
             <div className="mb-2">
-              <label for="exampleInputEmail1" className="form-label">
+              <label htmlhtmlFor="exampleInputEmail1" className="form-label">
                 Contact number.
               </label>
               <input
@@ -45,7 +48,10 @@ const Contact = () => {
               </div>
             </div>
             <div className="mb-3">
-              <label for="exampleFormControlTextarea1" className="form-label">
+              <label
+                htmlhtmlFor="exampleFormControlTextarea1"
+                className="form-label"
+              >
                 Your message here.
               </label>
               <textarea
@@ -62,7 +68,7 @@ const Contact = () => {
                 className="form-check-input"
                 id="exampleCheck1"
               />
-              <label className="form-check-label" for="exampleCheck1">
+              <label className="form-check-label" htmlhtmlFor="exampleCheck1">
                 I would like to request a return call.
               </label>
             </div>
