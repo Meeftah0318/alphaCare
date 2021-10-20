@@ -15,7 +15,7 @@ const useFirebase = () => {
   const [user, setUser] = useState({});
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const [passWordError, setPassWordError] = useState("");
   const auth = getAuth();
   const googleProvider = new GoogleAuthProvider();
 
@@ -30,12 +30,17 @@ const useFirebase = () => {
     // console.log("paisi");
     e.preventDefault();
     if (password.length < 6) {
-      setError("Passworld shoudl be at least 6 characters");
+      setPassWordError("Passworld shoudl be at least 6 characters");
       return;
     }
-    createUserWithEmailAndPassword(auth, email, password).then(result => {
-      const user = result.user;
-    });
+    createUserWithEmailAndPassword(auth, email, password)
+      .then(result => {
+        const user = result.user;
+        setPassWordError(" ");
+      })
+      .catch(error => {
+        setPassWordError(error.message);
+      });
   };
 
   const signInUsingGoogle = () => {
@@ -66,7 +71,7 @@ const useFirebase = () => {
     handelEmailChange,
     handelPassChange,
     handelRegistration,
-    error,
+    passWordError,
     logOut,
   };
 };

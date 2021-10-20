@@ -8,7 +8,7 @@ const Login = () => {
     handelRegistration,
     handelEmailChange,
     handelPassChange,
-    error,
+    passWordError,
   } = useFirebase();
   return (
     <div>
@@ -53,7 +53,7 @@ const Login = () => {
               </div>
               <div>
                 {" "}
-                <p>{error}</p>
+                <p>{passWordError}</p>
               </div>
 
               <button type="submit" className="my-2 btn px-4 btn-success me-4 ">
