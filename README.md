@@ -1,6 +1,20 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with React and Firebase [Create React App](https://alpha-care.netlify.app/).
+
+## What you can do?
+
+### Use of react
+
+In this single page application react has been used,
+
+### Dynamic routing
+
+Tried Dynamic routing, reached to a certain stage, data show needs some more work.
+
+### Firebase Authentication
+
+Google authentication works fine, Email authentication is still in progress.
 
 ## Available Scripts
 
