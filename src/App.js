@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import Services from "./Components/Services/Services";
@@ -10,6 +10,7 @@ import NotFound from "./Components/NotFound/NotFound";
 import Footer from "./Components/Footer/Footer";
 import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
+import MonoService from "./MonoService/MonoService";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/register">
             <Register></Register>
+          </Route>
+          <Route path="/:id">
+            <MonoService></MonoService>
           </Route>
           <Route path="/*">
             <NotFound></NotFound>

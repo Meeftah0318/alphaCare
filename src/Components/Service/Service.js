@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Service = props => {
-  const { name, details, image } = props.service;
+  const { id, name, details, image } = props.service;
   return (
     <div className="container service-container">
       <div className="card-group mx-2">
@@ -19,8 +20,10 @@ const Service = props => {
           </div>
           <div className="card-footer">
             <div className="d-flex justify-content-center">
-              <button className="btn btn-outline-success ">
-                Book Appointment
+              <button className="btn btn-outline-success">
+                <Link className="text-decoration-none  text-dark" to={`/${id}`}>
+                  Book Appointment
+                </Link>
               </button>
             </div>
           </div>
