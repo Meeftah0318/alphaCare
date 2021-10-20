@@ -61,7 +61,7 @@ const Header = () => {
                 <button onClick={logOut} className="btn btn-outline-danger">
                   {" "}
                   <Link className="text-decoration-none text-dark " to="login">
-                    Logout
+                    Logout {user.displayName}
                   </Link>{" "}
                 </button>
               )}
