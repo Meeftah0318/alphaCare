@@ -30,7 +30,7 @@ const useFirebase = () => {
     // console.log("paisi");
     e.preventDefault();
     if (password.length < 6) {
-      setPassWordError("Passworld shoudl be at least 6 characters");
+      setPassWordError("Password should be at least 6 characters");
       return;
     }
     createUserWithEmailAndPassword(auth, email, password)
